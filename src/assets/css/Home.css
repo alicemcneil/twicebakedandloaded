@@ -29,26 +29,61 @@
 	font-style: normal;
 }
 
+body {
+  margin: 0 !important;
+}
+
 .shell {
   height: 100vh; 
   width: 100vw;
-  overflow-x: hidden
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 .header {
   text-align: center;
+  z-index: 5;
 }
 .nav {
-  margin: 0 10px;
+  /* margin: 0 10px; */
   position: sticky;
   top: 0;
+  left: 0;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 10;
+  width: 100vw;
+}
+.home {
+  left: 10px; 
+}
+.nav-title {
+  color: rgba(255, 255, 255, 0.5);
+  mix-blend-mode: multiply;
+  text-align: center;
+  font-family: 'WorkSans-Bold', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin: 10px 0;
+  z-index: 4;
+}
+.phone {
+  top: 0px; 
+  right: 70px;
+}
+.mail {
+  top: 0px; 
+  right: 20px;
 }
 a {
   font-family: 'IcoMoon-Ultimate';
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 10px;
   color: #232323;
   cursor: pointer;
   text-decoration: none;
+  position: absolute;
 }
 a.right{
   float: right;
@@ -72,7 +107,7 @@ a.right{
   font-family: 'OldStandardTT', Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   letter-spacing: 2.5px;
-  margin: 50px 0 20px 0;
+  padding: 50px 0 20px 0;
 }
 .banner2 {
   font-family: 'WorkSans-Bold', Arial, Helvetica, sans-serif;
@@ -115,16 +150,52 @@ a.right{
 
 .dark-slice {
   background-color: #232323;
-  height: 20vh;
+  height: 30vh;
+  z-index: 5;
+  padding: 10vh 0;
+}
+.dark-slice-content {
+  width: 80vw;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: solid #fff 5px;
+  padding-bottom: 40px;
 }
 .slice-text {
   font-family: 'OldStandardTT', Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
   letter-spacing: 2.5px;
   color: #fff;
-  float: right;
-  width: 50vh;
+  float: left;
+  width: 45vw;
+  max-width: 600px;
+  text-align: right;
+  margin: 0 auto;
 }
+.slice-img {
+  width: 30vw;
+  max-width: 300px;
+  /* border-radius: 50%; */
+  vertical-align: middle;
+  margin-left: 40px;
+}
+.slice-h3 {
+  font-size: 1.8rem;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  line-height: 1.7;
+  color: #F1E7D3;
+}
+.paul {
+  font-weight: bold;
+  color: #fff;
+  font-size: 2.5rem;
+}
+.slice-p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  line-height: 1.7;
+}
+
 
 
 @keyframes header-img {
