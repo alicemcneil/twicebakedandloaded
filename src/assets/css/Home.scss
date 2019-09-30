@@ -1,0 +1,146 @@
+@font-face {
+	font-family: 'IcoMoon-Ultimate';
+	src: url('../fonts/icomoon/IcoMoon-Ultimate.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'WorkSans';
+  src: url('../fonts/Work_Sans/WorkSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'WorkSans-Bold';
+  src: url('../fonts/Work_Sans/WorkSans-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OldStandardTT';
+	src: url('../fonts/Old_Standard_TT/OldStandardTT-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OldStandardTT-Bold';
+	src: url('../fonts/Old_Standard_TT/OldStandardTT-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.shell {
+  height: 100vh; 
+  width: 100vw;
+  overflow-x: hidden
+}
+.header {
+  text-align: center;
+}
+.nav {
+  margin: 0 10px;
+  position: sticky;
+  top: 0;
+}
+a {
+  font-family: 'IcoMoon-Ultimate';
+  font-size: 3rem;
+  margin: 10px;
+  color: #232323;
+  cursor: pointer;
+  text-decoration: none;
+}
+a.right{
+  float: right;
+}
+.header-img {
+  background-color: #232323;
+  background-image: url('../images/point-at-potato.png');
+  background-size: cover;
+  height: 73vh;
+  padding: 20px 0;
+  transform: scale(1.1);
+  margin-top: 50px;
+  background-position: center;
+  animation-name: header-img;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+  animation-delay: 0s;
+}
+.banner1 {
+  font-family: 'OldStandardTT', Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 2.5px;
+  margin: 50px 0 20px 0;
+}
+.banner2 {
+  font-family: 'WorkSans-Bold', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 6.5rem;
+  letter-spacing: 2px;
+  color: #fff;
+  border-top: solid #fff 5px;
+  padding-top: 20px;
+  border-bottom: solid #fff 5px;
+  padding-bottom: 20px;
+}
+.line2 {
+  margin-top: -20px;
+}
+
+.banner3 {
+  font-family: 'OldStandardTT', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  color: #fff;
+  margin-top: 20px;
+}
+.arrow-cont {
+  position: relative;
+  height: 35vh;
+}
+.arrow-up {
+  font-family: 'IcoMoon-Ultimate';
+  font-size: 3rem;
+  margin: 10px;
+  color: #fff;
+  cursor: pointer; 
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+}
+
+.dark-slice {
+  background-color: #232323;
+  height: 20vh;
+}
+.slice-text {
+  font-family: 'OldStandardTT', Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 2.5px;
+  color: #fff;
+  float: right;
+  width: 50vh;
+}
+
+
+@keyframes header-img {
+  0% {
+    background-image: url('../images/point-at-potato.png');
+  }
+  25% {
+    background-image: url('../images/potato-family.png');
+  }
+  50% {
+    background-image: url('../images/potato-paul.png');
+  }
+  75% {
+    background-image: url('../images/just-potatoes.png');
+  }
+  100% {
+    background-image: url('../images/point-at-potato.png');
+  }
+}
