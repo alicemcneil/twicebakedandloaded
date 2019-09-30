@@ -44,7 +44,7 @@ body {
   z-index: 5;
 }
 .nav {
-  /* margin: 0 10px; */
+  margin: 0 10px;
   position: sticky;
   top: 0;
   left: 0;
@@ -76,7 +76,7 @@ body {
   top: 0px; 
   right: 20px;
 }
-a {
+.icon {
   font-family: 'IcoMoon-Ultimate';
   font-size: 2rem;
   margin: 10px;
@@ -84,6 +84,9 @@ a {
   cursor: pointer;
   text-decoration: none;
   position: absolute;
+}
+a {
+  text-decoration: none;
 }
 a.right{
   float: right;
@@ -102,6 +105,11 @@ a.right{
   animation-iteration-count: infinite;
   animation-direction: forwards;
   animation-delay: 0s;
+}
+.description-slip {
+  background-color: #BAA28E;
+  margin-top: 35px;
+  height: 10vh;
 }
 .banner1 {
   font-family: 'OldStandardTT', Arial, Helvetica, sans-serif;
@@ -182,11 +190,13 @@ a.right{
   font-size: 1.8rem;
   margin: 0 0 10px 0;
   text-transform: uppercase;
-  line-height: 1.7;
-  color: #F1E7D3;
+  color: rgba(225,225,225, 0.5);
+  font-family: 'WorkSans-Bold', Arial, Helvetica, sans-serif;
+
 }
 .paul {
   font-weight: bold;
+  font-family: 'WorkSans-Bold', Arial, Helvetica, sans-serif;
   color: #fff;
   font-size: 2.5rem;
 }

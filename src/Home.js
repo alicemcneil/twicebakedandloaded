@@ -6,10 +6,10 @@ function Home() {
     <div className="shell">
 
       <div className="nav">
-        <a href="#home" className="home">home</a>
+        <a href="#home" className="home icon">home</a>
         {/* <p className="nav-title">Twice baked and loaded</p> */}
-        <a href="tel:07766197840" className="right phone">phone</a>
-        <a href="mailto:paul@twicebakedandloaded.com" className="right mail">mail</a>
+        <a href="tel:07766197840" className="right phone icon">phone</a>
+        <a href="mailto:paul@twicebakedandloaded.com" className="right mail icon">mail</a>
       </div>
       <div className="header" id="home">
         <div className="banner1">
