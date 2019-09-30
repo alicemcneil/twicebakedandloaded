@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/css/Home.css';
+import './assets/css/Home.scss';
 
 function Home() {
   return (
@@ -23,17 +23,16 @@ function Home() {
           <div className="banner3">
             <span>Potato Company</span>
           </div>
-          <div className="arrow-cont">
+          {/* <div className="arrow-cont">
             <a className="arrow-up">
               circle-up
           </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="description-slip">
           <div>
             <h4>Twice Baked and Loaded Potato Company are based in Holt, Wiltshire. They serve delicious potatoes at festivals, street markets and are available for private parties or weddings.</h4>
-            <p>Just contact Paul on <a>07766197840</a>or email <a>paul@twicebakedandloaded.com</a></p>
           </div>
         </div>
 

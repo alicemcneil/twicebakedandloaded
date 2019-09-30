@@ -1,32 +1,36 @@
 @font-face {
-	font-family: 'IcoMoon-Ultimate';
-	src: url('../fonts/icomoon/IcoMoon-Ultimate.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'IcoMoon-Ultimate';
+  src: url('../fonts/icomoon/IcoMoon-Ultimate.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-	font-family: 'WorkSans';
+  font-family: 'WorkSans';
   src: url('../fonts/Work_Sans/WorkSans-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-	font-family: 'WorkSans-Bold';
+  font-family: 'WorkSans-Bold';
   src: url('../fonts/Work_Sans/WorkSans-Bold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-	font-family: 'OldStandardTT';
-	src: url('../fonts/Old_Standard_TT/OldStandardTT-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'OldStandardTT';
+  src: url('../fonts/Old_Standard_TT/OldStandardTT-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-	font-family: 'OldStandardTT-Bold';
-	src: url('../fonts/Old_Standard_TT/OldStandardTT-Bold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'OldStandardTT-Bold';
+  src: url('../fonts/Old_Standard_TT/OldStandardTT-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -34,15 +38,17 @@ body {
 }
 
 .shell {
-  height: 100vh; 
+  height: 100vh;
   width: 100vw;
   overflow-x: hidden;
   box-sizing: border-box;
 }
+
 .header {
   text-align: center;
   z-index: 5;
 }
+
 .nav {
   margin: 0 10px;
   position: sticky;
@@ -53,29 +59,32 @@ body {
   z-index: 10;
   width: 100vw;
 }
+
 .home {
-  left: 10px; 
+  left: 10px;
 }
-.nav-title {
-  color: rgba(255, 255, 255, 0.5);
-  mix-blend-mode: multiply;
-  text-align: center;
-  font-family: 'WorkSans-Bold', Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 2rem;
-  letter-spacing: 2px;
-  margin: 10px 0;
-  z-index: 4;
-}
+// .nav-title {
+//   color: rgba(255, 255, 255, 0.5);
+//   mix-blend-mode: multiply;
+//   text-align: center;
+//   font-family: 'WorkSans-Bold', Arial, Helvetica, sans-serif;
+//   text-transform: uppercase;
+//   font-weight: bold;
+//   font-size: 2rem;
+//   letter-spacing: 2px;
+//   margin: 10px 0;
+//   z-index: 4;
+// }
 .phone {
-  top: 0px; 
+  top: 0px;
   right: 70px;
 }
+
 .mail {
-  top: 0px; 
+  top: 0px;
   right: 20px;
 }
+
 .icon {
   font-family: 'IcoMoon-Ultimate';
   font-size: 2rem;
@@ -85,12 +94,15 @@ body {
   text-decoration: none;
   position: absolute;
 }
+
 a {
   text-decoration: none;
 }
-a.right{
+
+a.right {
   float: right;
 }
+
 .header-img {
   background-color: #232323;
   background-image: url('../images/point-at-potato.png');
@@ -106,17 +118,37 @@ a.right{
   animation-direction: forwards;
   animation-delay: 0s;
 }
+
 .description-slip {
-  background-color: #BAA28E;
-  margin-top: 35px;
-  height: 10vh;
+  background-color: #baa28e;
+  margin-top: 30px;
+  padding: 10px 0;
+  div {
+    font-family: 'OldStandardTT', Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    width: 80vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    h4 {
+      font-size: 1.5rem;
+    }
+    p {
+      a {
+        text-transform: uppercase;
+      }
+      
+      font-size: 1rem;
+    }
+  }
 }
+
 .banner1 {
   font-family: 'OldStandardTT', Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   letter-spacing: 2.5px;
   padding: 50px 0 20px 0;
 }
+
 .banner2 {
   font-family: 'WorkSans-Bold', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -129,6 +161,7 @@ a.right{
   border-bottom: solid #fff 5px;
   padding-bottom: 20px;
 }
+
 .line2 {
   margin-top: -20px;
 }
@@ -141,16 +174,18 @@ a.right{
   color: #fff;
   margin-top: 20px;
 }
+
 .arrow-cont {
   position: relative;
   height: 35vh;
 }
+
 .arrow-up {
   font-family: 'IcoMoon-Ultimate';
   font-size: 3rem;
   margin: 10px;
   color: #fff;
-  cursor: pointer; 
+  cursor: pointer;
   position: absolute;
   bottom: 0;
   left: 48%;
@@ -162,6 +197,7 @@ a.right{
   z-index: 5;
   padding: 10vh 0;
 }
+
 .dark-slice-content {
   width: 80vw;
   max-width: 1000px;
@@ -169,6 +205,7 @@ a.right{
   border-bottom: solid #fff 5px;
   padding-bottom: 40px;
 }
+
 .slice-text {
   font-family: 'OldStandardTT', Arial, Helvetica, sans-serif;
   letter-spacing: 2.5px;
@@ -179,6 +216,7 @@ a.right{
   text-align: right;
   margin: 0 auto;
 }
+
 .slice-img {
   width: 30vw;
   max-width: 300px;
@@ -186,41 +224,45 @@ a.right{
   vertical-align: middle;
   margin-left: 40px;
 }
+
 .slice-h3 {
   font-size: 1.8rem;
   margin: 0 0 10px 0;
   text-transform: uppercase;
-  color: rgba(225,225,225, 0.5);
+  color: rgba(225, 225, 225, 0.5);
   font-family: 'WorkSans-Bold', Arial, Helvetica, sans-serif;
-
 }
+
 .paul {
   font-weight: bold;
   font-family: 'WorkSans-Bold', Arial, Helvetica, sans-serif;
   color: #fff;
   font-size: 2.5rem;
 }
+
 .slice-p {
   font-size: 1rem;
   letter-spacing: 1px;
   line-height: 1.7;
 }
 
-
-
 @keyframes header-img {
   0% {
     background-image: url('../images/point-at-potato.png');
   }
+
   25% {
     background-image: url('../images/potato-family.png');
   }
+
   50% {
     background-image: url('../images/potato-paul.png');
   }
+
   75% {
     background-image: url('../images/just-potatoes.png');
   }
+
   100% {
     background-image: url('../images/point-at-potato.png');
   }
