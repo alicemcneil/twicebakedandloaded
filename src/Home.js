@@ -70,6 +70,7 @@ function Home() {
                 Potatoes are delicious and nutrious. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
+            <div> </div>
             <div>
               <img className="slice-img" src={require("./assets/images/why-potatoes.png")} />
             </div>
@@ -90,7 +91,7 @@ function Home() {
           </div>
           <div className="insta-link">          
           <span>#twicebakedandloaded</span>
-            <a href="https://www.facebook.com/Twice-Baked-and-Loaded-Potato-Company-100501174636828/" target="_blank" className="icon">facebook2</a><a href="https://www.facebook.com/Twice-Baked-and-Loaded-Potato-Company-100501174636828/" className="link">/TwiceBakedandLoaded</a>
+            <span className="link1-cont"><a href="https://www.facebook.com/Twice-Baked-and-Loaded-Potato-Company-100501174636828/" target="_blank" className="icon">facebook2</a><a href="https://www.facebook.com/Twice-Baked-and-Loaded-Potato-Company-100501174636828/" className="link">/TwiceBakedandLoaded</a></span>
             <a href="https://www.instagram.com/twicebakedandloaded/" target="_blank" className="icon">instagram</a><a href="https://www.instagram.com/twicebakedandloaded/" className="link">@twicebakedandloaded</a>
           </div>
         </div>
