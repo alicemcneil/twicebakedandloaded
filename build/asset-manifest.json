@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.98f82c68.chunk.css",
+    "main.js": "./static/js/main.ac34d368.chunk.js",
+    "main.js.map": "./static/js/main.ac34d368.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.06014d18.js",
+    "runtime-main.js.map": "./static/js/runtime-main.06014d18.js.map",
+    "static/js/2.8e1394ff.chunk.js": "./static/js/2.8e1394ff.chunk.js",
+    "static/js/2.8e1394ff.chunk.js.map": "./static/js/2.8e1394ff.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.34f672ac7250bacc62cd229285c5a26a.js": "./precache-manifest.34f672ac7250bacc62cd229285c5a26a.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.98f82c68.chunk.css.map": "./static/css/main.98f82c68.chunk.css.map",
+    "static/media/Home.scss": "./static/media/potato-paul.41c522be.png",
+    "static/media/insta1.png": "./static/media/insta1.5d880234.png",
+    "static/media/insta2.png": "./static/media/insta2.474e36aa.png",
+    "static/media/insta3.png": "./static/media/insta3.ca00cb5c.png",
+    "static/media/insta4.png": "./static/media/insta4.7d0f6f08.png",
+    "static/media/insta5.png": "./static/media/insta5.6bb03592.png",
+    "static/media/insta6.png": "./static/media/insta6.29c2803f.png",
+    "static/media/insta7.png": "./static/media/insta7.af3a1666.png",
+    "static/media/paul.png": "./static/media/paul.46e35cbd.png",
+    "static/media/sustainabilty.png": "./static/media/sustainabilty.d5872e28.png",
+    "static/media/why-potatoes.png": "./static/media/why-potatoes.485e5cbd.png"
+  }
+}
